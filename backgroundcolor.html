@@ -1,0 +1,20 @@
+<html>
+<head>
+<title> java script </title>
+</head>
+<body>
+<h1><i><b><center>CHANGE BACKGROUND COLOR</center></i></b>
+<button onclick="newcolor()">CHANGE</button>
+<script>
+var color=["red","black","yellow","blue","green","orange"];
+var i=0;
+function newcolor(){
+document.body.style.backgroundColor=color[i];
+i++;
+if(i==color.length){
+i=0;
+}
+}
+</script>
+</body>
+</html>
