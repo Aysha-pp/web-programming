@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>mouse over</title>
+</head>
+<body>
+<h1><i><b><center>move the mouse over the image</center></i></b>
+<div onmouseover="newContent()"onmouseout="changecontent()">
+<img id="image1" src="D:\aysha labeeba\sky1.jpg" width="200" height="150">
+<h3 id="text">this is the original image</h3>
+</div>
+<script>
+function newcontent()
+{
+document.getElementById("image1").src="D:\aysha labeeba\sky2.jpg";
+document.getElementById("text").innerHTML="this is the new image"
+}
+function changecontent()
+{
+document.getElementById("image1").src="D:\aysha labeeba\sky1.jpg";
+document.getElementById("text").innerHTML="this is the original image";
+</script>
+</body>
+</html>
+
